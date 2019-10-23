@@ -13,3 +13,7 @@ const breedDetailsFromFile = function(breed, callback) {
 breedDetailsFromFile("Bombay", bombay => {
   console.log("Return Value: ", bombay); // => print out details correctly.
 });
+
+breedDetailsFromFile("Balinese", balinese => {
+  console.log("Return Value: ", balinese); // => print out details correctly.
+});
